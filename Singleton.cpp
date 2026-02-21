@@ -1,5 +1,4 @@
 #include <iostream>
-#include <thread>
 
 using namespace std;
 
@@ -32,7 +31,7 @@ private:
 };
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Singleton pattern example!" << std::endl;
 
     Singleton& singleton_object = Singleton::getInstance(); // Access the singleton instance
     std::cout << "Initial data value: "  << std::endl;
